@@ -36,13 +36,13 @@ const handleSubmit = (e) => {
                 setTimeout(()=>{
                 result.innerHTML="<div style='padding: 25px;text-align:center; color:red;'>Incorrect password <br><a href='/login/login-page.html'>Go back to Login</a></div>";
                 loader.style.display = "none";
-                }, 3000);
+                }, 1000);
 
             })
             .catch(err=>console.log("Error: ", err));
 
-        }, 5000);
-    }, 3000)
+        }, 3000);
+    }, 1000)
 };
 
 
